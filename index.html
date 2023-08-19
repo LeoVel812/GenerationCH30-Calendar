@@ -22,7 +22,7 @@
           <form class="row g-2" id="dateForm">
             <div class="col-md-4">
               <label for="year" class="form-label">Year</label>
-              <input type="number" class="form-control bg-transparent text-light" id="year" step="1" min="0" placeholder="yyyy">
+              <input type="number" class="form-control bg-transparent text-light" id="year" step="1" min="1752" max="2399" placeholder="yyyy" >
             </div>
             <div class="col-md-4">
               <label for="month" class="form-label">Month</label>
@@ -36,7 +36,7 @@
               <button id="estimateBtn" type="submit" class="btn btn-outline-light btn-lg">Estimate</button>
             </div>
           </form>
-          <div class="card bg-transparent text-light border-light">
+          <div id="cardDate" class="card bg-transparent text-light border-light border-2">
             <div id="type-day" class="card-body">
 
             </div>
